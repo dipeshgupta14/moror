@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MOROR E-MAIL MARKETING</title>
+
+<!-- Bootstrap -->
+<link rel="icon" href="images/mororico.png" type="image/gif" sizes="16x16">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+	
+	
+	.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    text-decoration: none
+}
+
+.nav-link.disabled {
+    color: #6c757d
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #dee2e6
+}
+
+.nav-tabs .nav-link.disabled {
+    color: #6c757d;
+    background-color: transparent;
+    border-color: transparent
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff
+}
+
+.nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #007bff
+}
+
+.nav-fill .nav-item {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center
+}
+
+.nav-justified .nav-item {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center
+}
+
+.tab-content>.tab-pane {
+    display: none
+}
+
+.tab-content>.active {
+    display: block
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem
+}
+
+.navbar>.container,
+.navbar>.container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    text-decoration: none
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none
+}
+
+.navbar-text {
+    display: inline-block;
+    padding-top: .5rem;
+    padding-bottom: .5rem
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    text-decoration: none
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%
+}
+
+@media (max-width:575.98px) {
+    .navbar-expand-sm>.container,
+    .navbar-expand-sm>.container-fluid {
+        padding-right: 0;
+        padding-left: 0
+    }
+}
+
+@media (min-width:576px) {
+    .navbar-expand-sm {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .navbar-expand-sm .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+    .navbar-expand-sm .navbar-nav .dropdown-menu {
+        position: absolute
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+    .navbar-expand-sm>.container,
+    .navbar-expand-sm>.container-fluid {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+    .navbar-expand-sm .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+    .navbar-expand-sm .navbar-toggler {
+        display: none
+    }
+}
+
+@media (max-width:767.98px) {
+    .navbar-expand-md>.container,
+    .navbar-expand-md>.container-fluid {
+        padding-right: 0;
+        padding-left: 0
+    }
+}
+
+@media (min-width:768px) {
+    .navbar-expand-md {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .navbar-expand-md .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: absolute
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+    .navbar-expand-md>.container,
+    .navbar-expand-md>.container-fluid {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+    .navbar-expand-md .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+    .navbar-expand-md .navbar-toggler {
+        display: none
+    }
+}
+
+@media (max-width:991.98px) {
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        padding-right: 0;
+        padding-left: 0
+    }
+}
+
+@media (min-width:992px) {
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+    .navbar-expand-lg .navbar-toggler {
+        display: none
+    }
+}
+
+@media (max-width:1199.98px) {
+    .navbar-expand-xl>.container,
+    .navbar-expand-xl>.container-fluid {
+        padding-right: 0;
+        padding-left: 0
+    }
+}
+
+@media (min-width:1200px) {
+    .navbar-expand-xl {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .navbar-expand-xl .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+    .navbar-expand-xl .navbar-nav .dropdown-menu {
+        position: absolute
+    }
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+    .navbar-expand-xl>.container,
+    .navbar-expand-xl>.container-fluid {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+    .navbar-expand-xl .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+    .navbar-expand-xl .navbar-toggler {
+        display: none
+    }
+}
+
+.navbar-expand {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.navbar-expand>.container,
+.navbar-expand>.container-fluid {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.navbar-expand .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.navbar-expand .navbar-nav .dropdown-menu {
+    position: absolute
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem
+}
+
+.navbar-expand>.container,
+.navbar-expand>.container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap
+}
+
+.navbar-expand .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto
+}
+
+.navbar-expand .navbar-toggler {
+    display: none
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9)
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: rgba(0, 0, 0, .9)
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5)
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, .7)
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: rgba(0, 0, 0, .3)
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0, 0, 0, .9)
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1)
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+.navbar-light .navbar-text {
+    color: rgba(0, 0, 0, .5)
+}
+
+.navbar-light .navbar-text a {
+    color: rgba(0, 0, 0, .9)
+}
+
+.navbar-light .navbar-text a:focus,
+.navbar-light .navbar-text a:hover {
+    color: rgba(0, 0, 0, .9)
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+    color: #fff
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .5)
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, .75)
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: rgba(255, 255, 255, .25)
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .1)
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+.navbar-dark .navbar-text {
+    color: rgba(255, 255, 255, .5)
+}
+
+.navbar-dark .navbar-text a {
+    color: #fff
+}
+
+.navbar-dark .navbar-text a:focus,
+.navbar-dark .navbar-text a:hover {
+    color: #fff
+}
+
+	
+	
+	
+	.navbar-dark .navbar-nav .nav-link {
+	color:#f26c21;
+	font-weight:500;
+	font-size:20px;
+	padding-right:25px;
+	
+	}
+	.navbar-dark .navbar-nav .nav-link:hover{
+	 
+	 color:#000;
+	
+	}
+	
+	
+	.navbar .dropdown-toggle, .navbar .dropdown-menu a {
+    cursor: pointer;
+}
+
+.navbar .dropdown-item.active, .navbar .dropdown-item:active {
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+	color:#000;
+}
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+@media (min-width: 767px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+	#navbarCollapse{
+	
+	margin-left: 200px;
+	
+	}
+}
+	</style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="navbar navbar-expand-md navbar-dark bg-dark mb-4" role="navigation" style="position: -webkit-sticky;
+    position: sticky;top: 0;z-index:99; background-color: #ffffff !important; margin-top:-60px;">
+	<div class="container">
+    <a class="navbar-brand" href="https://mororai.com" style="height:50%;">
+	<img src="data:image/webp;base64,UklGRloEAABXRUJQVlA4TE4EAAAvWcANEK+muG3bSANn/38T270WmPkJIZC0xdt+RW7bNshpdNDfAGrBWJDcg0VIEkDi6E7OQRnmhjFDbVoagwxDFDb3WI5JEeGqkkxq/FogqN22bVquZmz7Vmzbtm3btm3bTu6pOHmF2C5XReMXrX1Opd26z18i+j8B+tu7b2HU2gpjo9ROgAlRaR/OyVHoADBwDjA16hwGhksbgWlR5gQwWJLWAzOiymlI7y/nGmBWFDkPjJLvXmB2tMh1GSDc0NUjEWBudMh3A1JfAJ3NJOAdMD8aFLwF1C74ABguLQWOFpkOLMp5Re8BraT854Dxy4BNkhYBS3Ja8Ufws7nsPpzzZBcAy3JW6UTIaqLQZElaY0ZJ2jVDmgeszElln0N6A+kPZknSDOgmaRp0k2YDq3JOxdeQXEe6CEyWpLHdJPUGaCPNBNbmlMrv4UsN6SR2hNz1cTaWpgPrc0a1T/ChqnQA0o4CAxwlvsCe/ZBVS5oGbMwJtZPgTSVpO9BWu4Gu5i4kSPchKSRNBTZHXv00eFFOWg8MkXQYaCMdgvRyUtEn8LaMNBnYGmmNMuFJGWk5MFr2LFBnItBMksq8g8dFpPHAtojK1eE7xJWU5gJT5L6Oc6icMclwN480FtgRSYV/wf1i0hpgtnzz3jfz5FvnG1yrKI0BLhaOHHXjTSFJG2GpAhZ9AnsUsAmwRNIouB5Jahcju3avApfhlQK35VwZSZpzVFGwfiiYmubR/0rzSiobU8gnVyiUnZLli/+OvJXy+JQoX+J35K7oxcXFPSmo2fe+8fFgC0lVtrz49evputJ+/fbGp31PfbSju6tdXFxc3BmV3PD6fQHTY+cfqd9T43b3cTWLi4uLu65Ca14kYxsewT1AzTNxvotx1LyM/+mQGQDg1XsHafmkmLP4X6xuOgEk1nkCJAGf3uL7q9kLfB+YWpkE/VJJUg8T9xl4m0+hJIJm1JTU1iR8AJJM4F8E7CDpFcH/8HPn0h8Ef5nLx+3K2rD8kQMSVqzNdKySxmPPda3f86phWJDY7SvUC3u1R/1u5wzjgtzdsdrxqbqkm45LuaUaKWavFGtiZR+aC35ZPSXpgnkkGzae38+BkhzjJam3o6YkbTZ7VPib6eIYaJIL+PSVpPxfTX9HR/OjuM8I+dU3rc072Xlml6pjyzmqG2Jcb2UrYas5yhnqupKVnQ4m0bHYVS1QNUfIdd9RMVBZRx3X8yANTUfzNFjBTNPB0cd8zeeKc+T9bHo72plvRV2v8/6WZ8F03Vx13DZnFEynzB3HFXNVETTScLRlTNvT2H7Z6W843Sam1RHsiEhSvAnoKTuKNQHjFVGhT4Felc5emdeBPlXKDra56Wl+OTaaU5JU4WSAg6UkaZDJ8FGpQwGOl5ekzgbHeS/sebVMc88Le8ccE71w2FtkpI6bYt8nvb25ro2crT0v7B30k9quD79LeudtaC9nE88LeyfzmGgO" alt="logo" title="" data-pagespeed-url-hash="2234551727" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+	
+	</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="background-color: #f26c21;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto" style="margin:0 0 0 0;">
+            <li class="nav-item active">
+                <a class="nav-link" href="https://mororai.com" style="color:#f26c21;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#f26c21;">Services
+				<i class="fas fa-caret-down" style="font-size:20px;"></i>
+				</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                    
+                    <li class="dropdown-item dropdown">
+                        <a class="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000">Franchisee & Distributor
+						<i class="fas fa-caret-right" style="font-size:15px;"></i></a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
+                            <li class="dropdown-item " onclick="window.open('https://mororai.com/service_page_franchisee_distributor/','_self')"><a href="https://mororai.com/service_page_franchisee_distributor/" style="color: #000">Franchisee & Distributor Marketing</a></li>
+							<li class="dropdown-item" onclick="window.open('https://mororai.com/Service_page_BRAND_MANAGEMENT/Service_page_BRAND_MANAGEMENT.html','_self')"><a href="https://mororai.com/Service_page_BRAND_MANAGEMENT/Service_page_BRAND_MANAGEMENT.html" style="color: #000">Brand Designing</a></li>
+							<li class="dropdown-item" onclick="window.open('https://mororai.com/Service_page_BRAND_ANALYSIS/Service_page_BRAND_ANALYSIS.html','_self')"><a href="https://mororai.com/Service_page_BRAND_ANALYSIS/Service_page_BRAND_ANALYSIS.html" style="color: #000">Business Analysis</a></li>
+							<li class="dropdown-item" onclick="window.open('https://mororai.com/moror-survey/','_self')"><a href="https://mororai.com/moror-survey/" style="color: #000">Business Survey</a></li>
+							
+                            
+                        </ul>
+                    </li>
+					
+					<li class="dropdown-item dropdown">
+                        <a class="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000">Consumer Engagement
+						<i class="fas fa-caret-right" style="font-size:15px;"></i></a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown1-2">
+              <li class="dropdown-item" onclick="window.open('https://mororai.com/social_media_marketing_and_contest/social_media_marketing_and_contest.html','_self')"><a href='https://mororai.com/social_media_marketing_and_contest/social_media_marketing_and_contest.html' style="color: #000">Social Media Marketing & Contest</a></li>
+							<li class="dropdown-item" onclick="window.open('https://mororai.com/facebook_marketing_and_contest/facebook_marketing_and_contest.html','_self')"><a href="https://mororai.com/facebook_marketing_and_contest/facebook_marketing_and_contest.html" style="color: #000">Facebook Marketing & Contest</a></li>
+							<li class="dropdown-item" onclick="window.open('https://mororai.com/instagram_marketing_and_contest/instagram_marketing_and_contest.html','_self')"><a href="https://mororai.com/instagram_marketing_and_contest/instagram_marketing_and_contest.html" style="color: #000">Instagram Marketing & Contest</a></li>
+							<li class="dropdown-item" onclick="window.open('https://mororai.com/youtube_marketing_and_contest/youtube_marketing_and_contest.html','_self')"><a href="https://mororai.com/youtube_marketing_and_contest/youtube_marketing_and_contest.html" style="color: #000">Youtube Marketing & Contest</a></li>
+							<li class="dropdown-item" onclick="window.open('https://mororai.com/twitter_marketing_and_contest/twitter_marketing_and_contest.html','_self')"><a href="https://mororai.com/twitter_marketing_and_contest/twitter_marketing_and_contest.html" style="color: #000">Twitter Marketing & Contest</a></li>
+							<li class="dropdown-item" onclick="window.open('https://mororai.com/social_media_lead_generation/social_media_lead_generation.html','_self')"><a href="https://mororai.com/social_media_lead_generation/social_media_lead_generation.html" style="color: #000">Social Media Lead Generation</a></li>
+
+                            
+                        </ul>
+                    </li>
+					
+                </ul>
+            </li>
+			
+			
+			
+			<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#f26c21;">Video & TVC
+				<i class="fas fa-caret-down" style="font-size:20px;"></i>
+				</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                    <li class="dropdown-item"><a href="https://mororai.com/what_we_do.html" style="color: #000">Video Content</a></li>
+							<li class="dropdown-item"><a href="https://mororai.com/web/" style="color: #000">TVC & Documentary</a></li>
+                   
+                </ul>
+            </li>
+			
+			<li class="nav-item active">
+                <a class="nav-link" href="https://www.mororai.com/developer_zone.html" style="color:#f26c21;">Devloper Zone <span class="sr-only">(current)</span></a>
+            </li>
+			
+			<li class="nav-item active">
+                <a class="nav-link" href="https://www.mororai.com/contact_us.php" style="color:#f26c21;">Contact <span class="sr-only">(current)</span></a>
+  
+          </li>
+            
+        </ul>
+        
+    </div>
+   </div>
+</div>
+
+<section id="banner">
+	<div class="container-fluid">
+		<div class="row">
+	<!-- 		<div class="col-md-6"><img src="images/1111.png" alt=""></div> --><!--column ends here-->
+			<div class="col-md-12"><div class="content-banner"><h1>E-Mail Marketing</h1><h4>Create and send professional emails and newsletters, personalize them, then track and analyze your results.</h4><button class="button button1 popup-vimeo">Get Started</button></div></div><!--column ends here-->
+		</div><!--row ends here-->
+	</div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="services">
+    <div class="container">
+        <div class="row text-center">
+       <div class="col-md-12 text-center"><h1>Services</h1></div>
+        <div class="col-md-4"><img src="images/f.png" alt=""><h3>Prepackaged & Custom Templates</h3></div>
+         <div class="col-md-4"><img src="images/i.png" alt=""><h3>Personalization</h3></div>
+          <div class="col-md-4"><img src="images/g.png" alt=""><h3>Email Lead Scoring</h3></div>
+            <div class="col-md-4"><img src="images/" alt=""><h3></h3></div>  <div class="col-md-4"><img src="images/" alt=""><h3></h3></div>
+
+          <div class="col-md-4"><img src="images/k.png" alt=""><h3>Tracking and Metrics</h3></div>
+         <div class="col-md-4"><img src="images/5.png" alt=""><h3>Target Your Audience</h3></div>
+
+          <div class="col-md-4"><img src="images/j.png" alt=""><h3>Sharing on Social Media</h3></div>
+         <div class="col-md-4"><img src="images/d.png" alt=""><h3>Autoresponders</h3></div>
+          <div class="col-md-4"><img src="images/h.png" alt=""><h3>Real-Time Alerts</h3></div>
+
+            <!-- <div  class="col-md-3"><img src="images/6.png" alt=""><h3>Youtube<br>Give Away</h3></div> -->
+        <!--    <div style="padding-top: 40px;" class="col-md-4"><img src="images/7.png" alt=""><h3>Hyper Ledger<br>Give Away</h3></div> -->
+
+</div><!--row ends here-->
+</div><!--container fluid ends here-->
+</section>
+
+<section id="about">
+	<div class="container">
+		<div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Prepackaged & Custom Templates</h2><h4>Moror A.I. gives you a range of prepackaged email marketing templates to give your business the visually appealing, professional look and feel it needs. Check out Moror A.I.’s email marketing template examples, then select the template you prefer, draft your message, and automate the send. You can also create custom templates—with no programming experience—that pull in your branding for added impact.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/1.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+	</div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/2.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Personalization</h2><h4>Moror A.I. makes it easy to personalize your emails by merging contact attributes into your messages. It’s easy to automatically pull each recipient’s respective name, location, industry, and more into your emails for a personal touch that better engages contacts and prospects alike</h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Email Lead Scoring</h2><h4>Built-in, automated lead scoring lets you assign scores to leads when they take certain actions, like opening or clicking a link in an email. Set a scoring threshold for lead qualification and only pass leads to sales once their score is high enough. This lets sales teams from small businesses focus more on high quality prospects and frees time previously spent reaching out to dead-end leads.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/4.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/3.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Tracking and Metrics</h2><h4>Extensive metrics and analytics let you track the ongoing results of your email marketing and provide constant insight into how your efforts are moving the needle. Email campaign metrics—such as open and click-through rates—tell you what’s working and what’s not. Individual contact tracking lets you know which emails specific contacts are engaging with. </h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Target Your Audience</h2><h4>It’s easy to import lists of contacts and their information into the system for email distribution. You can also add contacts manually or use Moror A.I.’s email finder to trawl the web for the email addresses of existing contacts in your database without one.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/9.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/5.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Sharing on Social Media</h2><h4>Another one of Moror A.I. great email marketing tools. Include social share buttons in your email templates to let recipients share them out to their social networks. Social media is where people go these days for information, so make it easy for prospects and customers to get the word out about your brand.</h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Autoresponders</h2><h4>Create and store automatic response emails that get sent when a specified behavioral trigger takes place. For example, set up a welcome email that gets sent automatically when someone signs up for a free trial via one of your web forms. Or an email acknowledging receipt of a customer support inquiry submitted via email. </h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/7.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/6.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Real-Time Alerts</h2><h4>Real-time notifications alert you when a specified action takes place, such as a prospect clicking the call-to-action in your email. You’ll see an on-screen popup the moment the action takes place, allowing you to reach out and engage prospects and customers at just the right time.</h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<section id="banner">
+    <div class="container-fluid">
+        <div class="row">
+    <!--        <div class="col-md-6"><img src="images/1111.png" alt=""></div> --><!--column ends here-->
+            <div class="col-md-12"><div class="content-banner"><h1>Newsletter</h1><h4>Email newsletters have moved much beyond being simple weekly text emails. With advanced scheduling features, predefined HTML templates and seamless marketing campaign integration, newsletters can deliver an engaging customer experience and have a direct impact on the bottom-line like never before.</h4><button class="button button1 popup-vimeo">Get Started</button></div></div><!--column ends here-->
+        </div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="services">
+    <div class="container">
+        <div class="row text-center">
+       <div class="col-md-12 text-center"><h1>Services</h1></div>
+        <div class="col-md-4"><img src="images/ab.png" alt=""><h3>Increase Brand Awareness and Drive Traffic</h3></div>
+         <div class="col-md-4"><img src="images/cd.png" alt=""><h3>Educate Prospects and Build Credibility</h3></div>
+          <div class="col-md-4"><img src="images/ef.png" alt=""><h3>Drive Repeat Business and Referrals</h3></div>
+          <div class="col-md-4"><img src="images/gh.png" alt=""><h3>Automated Subscription Management</h3></div>
+         <div class="col-md-4"><img src="images/ij.png" alt=""><h3>Predefined Templates</h3></div>
+          <div class="col-md-4"><img src="images/kl.png" alt=""><h3>Performance Analytics</h3></div>
+      
+            <!-- <div  class="col-md-3"><img src="images/6.png" alt=""><h3>Youtube<br>Give Away</h3></div> -->
+        <!--    <div style="padding-top: 40px;" class="col-md-4"><img src="images/7.png" alt=""><h3>Hyper Ledger<br>Give Away</h3></div> -->
+
+</div><!--row ends here-->
+</div><!--container fluid ends here-->
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Increase Brand Awareness and Drive Traffic</h2><h4>Create a lasting first impression with beautifully crafted newsletters that describe your brand offerings and the buying process. You can also provide relevant CTAs and links to drive traffic to your website and social media outposts.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/121.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/23.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Educate Prospects and Build Credibility</h2><h4>Send newsletters with product demo videos, white papers, product comparisons and other engaging content to your prospects at various stages of the sales funnel and enable them to take an informed decision. Establish your expertise with credible data presented in an effective manner.</h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Drive Repeat Business and Referrals</h2><h4>Keep in touch with your existing customers with exciting information and relevant new offers to drive cross-sell and upsell opportunities. Email newsletters with great pass-along value have the power to generate a number of qualified referrals online without any additional marketing effort.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/34.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/45.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Automated Subscription Management</h2><h4>Moror A.I. integrates seamlessly with inbound marketing platforms such as your website, blog, social media pages and landing pages to automatically collate all your subscriber data into a centralized database. This database can be then sliced and diced based on various parameters to generate the perfect target list for your newsletter campaigns. </h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Predefined Templates</h2><h4>Moror A.I. provides a selection of pre-designed mobile-optimized HTML newsletter templates which can be easily customized to suit your specific audience. What’s more? You can even create your own templates for future use. You can include images, videos, contact details, social media buttons and more to spruce up your newsletters.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/56.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/67.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Performance Analytics</h2><h4>Once you send newsletters, you can track, in real-time, the number of emails opened, click-through rates, link clicks, hard and soft bounces and the number of users opting out of subscription. With Moror A.I.’s email newsletter performance reports you can accurately track your contact behavior and pinpoint the content that drives maximum engagement and ultimately, conversions.</h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<section id="banner">
+    <div class="container-fluid">
+        <div class="row">
+    <!--        <div class="col-md-6"><img src="images/1111.png" alt=""></div> --><!--column ends here-->
+            <div class="col-md-12"><div class="content-banner"><h1>Email Tracking</h1><h4>Maintain constant insight into the results of your email marketing.
+
+</h4><button class="button button1 popup-vimeo">Get Started</button></div></div><!--column ends here-->
+        </div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="services">
+    <div class="container">
+        <div class="row text-center">
+       <div class="col-md-12 text-center"><h1>Services</h1></div>
+        <div class="col-md-4"><img src="images/g.png" alt=""><h3>Track Email Performance</h3></div>
+         <div class="col-md-4"><img src="images/b.png" alt=""><h3>Lead Scoring and Segmentation</h3></div>
+          <div class="col-md-4"><img src="images/k.png" alt=""><h3>Email Campaign Analytics</h3></div>
+           <div class="col-md-4"><img src="images/" alt=""><h3></h3></div>
+          <div class="col-md-4"><img src="images/" alt=""><h3></h3></div>
+          <div class="col-md-4"><img src="images/d.png" alt=""><h3>Autoresponders</h3></div>
+           
+       
+      
+            <!-- <div  class="col-md-3"><img src="images/6.png" alt=""><h3>Youtube<br>Give Away</h3></div> -->
+        <!--    <div style="padding-top: 40px;" class="col-md-4"><img src="images/7.png" alt=""><h3>Hyper Ledger<br>Give Away</h3></div> -->
+
+</div><!--row ends here-->
+</div><!--container fluid ends here-->
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Track Email Performance</h2><h4>Maintaining insight into the results of your email marketing campaigns is crucially important to improving your performance. Moror A.I. automatically tracks which emails are opened, which ones are clicked, who opens them and the actions leads took on your site after clicking through. You can also receive real time notifications around those metrics.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/12.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/10.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Lead Scoring and Segmentation</h2><h4>Scoring and segmenting leads lets you accurately qualify sales-ready leads and leave dead-end leads alone. Score leads or add tags based on behaviors they take (e.g. opening an email or visiting a specific webpage) or demographical information they provide you. Maintain insight into leads’ interests and histories so your sales team can close more deals faster.</h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Email Campaign Analytics</h2><h4>Run reports to see which emails are performing the best (e.g. highest open and click-through rates) and which are coming up short. Understand which are the best times of day to send emails and which to avoid. Don’t settle for average—elevate yourself to exceptional with actionable insights that help continuously improve performance.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/11.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/13.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Autoresponders</h2><h4>Autoresponders and email tracking go hand in hand. Send automatic email responses based on email tracking results, then further track contact actions and segment even more specifically to increase conversions.</h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<section id="banner">
+    <div class="container-fluid">
+        <div class="row">
+    <!--        <div class="col-md-6"><img src="images/1111.png" alt=""></div> --><!--column ends here-->
+            <div class="col-md-12"><div class="content-banner"><h1>Video Emails</h1><h4>Embed personalized videos in your marketing emails to increase engagement with your brand.
+
+</h4><button class="button button1 popup-vimeo">Get Started</button></div></div><!--column ends here-->
+        </div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="services">
+    <div class="container">
+        <div class="row text-center">
+       <div class="col-md-12 text-center"><h1>Services</h1></div>
+        <div class="col-md-4"><img src="images/a.png" alt=""><h3>Video Upload and Creation</h3></div>
+         <div class="col-md-4"><img src="images/c.png" alt=""><h3>Targeted Videos</h3></div>
+          <div class="col-md-4"><img src="images/d.png" alt=""><h3>Calls to Action</h3></div>
+          <div class="col-md-4"><img src="images/5.png" alt=""><h3>Lead Acquisition</h3></div>
+          <div class="col-md-4"><img src="images/b.png" alt=""><h3>Performance Tracking</h3></div>
+       
+       
+      
+            <!-- <div  class="col-md-3"><img src="images/6.png" alt=""><h3>Youtube<br>Give Away</h3></div> -->
+        <!--    <div style="padding-top: 40px;" class="col-md-4"><img src="images/7.png" alt=""><h3>Hyper Ledger<br>Give Away</h3></div> -->
+
+</div><!--row ends here-->
+</div><!--container fluid ends here-->
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Video Upload and Creation</h2><h4>Upload an existing video for immediate use. Or, create your own using Moror A.I.’s video recording features. Use standard, built-in video themes, or build custom themes to fit your specific needs. Once complete, simply insert your video into an email with an intuitive, drag-and-drop email builder.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/111.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/444.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Targeted Videos</h2><h4>Boost engagement by sending prospects and customers video emails that align with their interests. Segment your target audience by various attributes—such as job title, industry or company size—and route different videos to different recipients based on those attributes.</h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6"><div class="content-about"><h2>Calls to Action</h2><h4>Increase customer interaction with your brand by including a call to action right in the video. Embed a pop up in the video that invites viewers to subscribe to your blog or YouTube channel. Add a comments section to allow viewers to share their experience or ask a question.</h4></div></div><!--column ends here-->
+         <div class="col-md-6"><img src="images/14.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img src="images/333.jpg" alt=""></div><!--column ends here-->
+        <div class="col-md-6"><div class="content-about"><h2>Lead Acquisition</h2><h4>Gate important, high-value videos with forms that request information from the lead before they can view the video. Place those forms where you want with Moror A.I.'s intuitive landing page builder. Obtain more information on existing leads and add new leads to your database for further nurturing.</h4></div></div><!--column ends here-->
+         
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+           
+        <div class="col-md-6"><div class="content-about"><h2>Performance Tracking</h2><h4>Once your video email has been sent, you can maintain a view into how well it performs. Take advantage of robust tools for analyzing email sends and keep track of important metrics such as emails delivered, emails opened, number of video views, and more.</h4></div></div><!--column ends here-->
+          <div class="col-md-6"><img src="images/222.jpg" alt=""></div><!--column ends here-->
+
+</div><!--row ends here-->
+    </div><!--container fluid ends here-->
+</section><!--section ends here-->
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!--section ends here-->
+
+
+<section id="heading-strategy"><div class="text-center"><h1>Our Strategy</h1></div></section>
+
+<section id="strategy">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p>A software that allows businesses of all sizes to optimize their efficiency and customer relationships. For small businesses with limited employees, it allows them to run multiple campaigns successfully and manage their time efficiently. It also makes it easier and more organized for larger organizations to connect with each of their customers in a highly personalized way.
+</p>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="testimonial-slider">
+<div class="container-fluid">
+
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+   <p>Improve your lead management activity in the form of generating, scoring, nurturing and segmentation.The next generation automation technology can help you reach out to a potential lead right from the beginning of their interaction and keep a track of their individual digital behavior to gain highly actionable insights.
+</p> 
+      </div>
+
+      <div class="item">
+      <p>Analytical insights offered by leading SMB marketing automation solutions have helped marketers track and respond to unique customer behavior and take decisive action by interpreting the same. B2B Marketers who proactively leverage data-driven marketing are “three times more likely than laggards to report achieving competitive advantage in customer engagement/loyalty.
+   </p> 
+      </div>
+    
+      <div class="item">
+    <p>Marketers who use automation close deals quickly, shortening the traditional sales cycle by replacing it with an automated one. This automation tool eases and expedites the process of lead nurturing to the point that they’re actually buying.
+   </p> 
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class=""><img src="images/left.png" alt=""></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class=""><img src="images/right.png" alt=""></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div></div>
+</section>
+
+
+
+
+<section id="reach" style="padding: 130px 0 0 0;">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h3>MOROR A.I. PVT. LTD.</h3>
+</div>
+<div class="col-md-4">
+<h3>Address 1</h3>
+<p>Level 16-Tower 9A,
+Cyber City, DLF Phase-3,
+Gurgaon Haryana, India - 122010</p>
+</div>
+
+<div class="col-md-4">
+<h3>Address 2</h3>
+<p>3rd Floor - 317, Star Tower,
+    Sector-30, Gurgaon Haryana, India - 122001 </p>
+</div>
+<div class="col-md-4 text-center">
+<a href="https://www.facebook.com/MororAI-346394842772876/?modal=admin_todo_tour" target=" "><img src="images/fb.png" alt=""></a>
+<a href="https://www.instagram.com/moror.ai/?hl=en" target=" "><img src="images/insta.png" alt=""></a>
+<a href="https://twitter.com/moror_ai" target=" "><img src="images/twitter.png" alt=""></a>
+<a href="https://www.linkedin.com/company/33460265/admin/" target=" "><img src="images/linkedin.png" alt=""></a>
+</div>
+
+</div>
+</div>
+</section>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-right">
+        <p>Copyright © Mororai pvt Ltd. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script>
+$(document).ready(function() { 
+
+    $("html").niceScroll();
+
+  }
+
+);
+</script>
+
+<script>
+$(document).ready(function () {
+
+    $('.navbar .dropdown-item').on('click', function (e) {
+        var $el = $(this).children('.dropdown-toggle');
+        var $parent = $el.offsetParent(".dropdown-menu");
+        $(this).parent("li").toggleClass('open');
+
+        if (!$parent.parent().hasClass('navbar-nav')) {
+            if ($parent.hasClass('show')) {
+                $parent.removeClass('show');
+                $el.next().removeClass('show');
+                $el.next().css({"top": -999, "left": -999});
+            } else {
+                $parent.parent().find('.show').removeClass('show');
+                $parent.addClass('show');
+                $el.next().addClass('show');
+                $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+            }
+            e.preventDefault();
+            e.stopPropagation();
+        }
+    });
+
+    $('.navbar .dropdown').on('hidden.bs.dropdown', function () {
+        $(this).find('li.dropdown').removeClass('show open');
+        $(this).find('ul.dropdown-menu').removeClass('show open');
+    });
+
+});
+
+</script>
+ 
+ <script>
+ 
+ 
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".navbar").addClass("nav-scroll");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".navbar").removeClass("nav-scroll");
+    }
+});
+
+
+
+      
+    
+
+
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 110});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myDefaultNavbar1 a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+
+</script>
+</body>
+</html>
