@@ -17,7 +17,7 @@ In 'settings.py' import 'django_heroku' and at last line (in settings.py) write 
 
 Create 'requirements.txt' and include python packages with their version.
 
-Create a file named 'Procfile'(note: this file must be without any extension) and write 'web: gunicorn <app name>.wsgi --log-file -'
+Create a file named 'Procfile'(note: this file must be without any extension) and write 'web: gunicorn "app name".wsgi --log-file -'
 
 Upload 'requirements.txt' and 'Procfile' on your Git profile.
 
@@ -47,4 +47,4 @@ Heroku:
 
 => Click on 'Deploy Branch'
 
-=> Run https://<app name>.herokuapp.com/.
+=> Run https://"app name".herokuapp.com/.
