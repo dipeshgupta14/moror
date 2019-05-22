@@ -21,7 +21,9 @@ Create a file named 'Procfile'(note: this file must be without any extension) an
 
 Upload 'requirements.txt' and 'Procfile' on your Git profile.
 
-=> these file must be in the root folder.
+=> these file must be in the root folder.js
+
+#sjhfd
 
 Heroku:
 
